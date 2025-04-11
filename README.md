@@ -83,7 +83,7 @@ Step-05 generates all the points for one octant.To find the points for other sev
 
 Here is a visual representation of how the  Mid Point Circle Drawing Algorithm works:
 
-<img src="output.png" width="600" height="300" alt="DDA">
+<img src="output.png" width="700" height="300" alt="DDA">
 
 ---
 
