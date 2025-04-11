@@ -1,13 +1,12 @@
 # Mid Point Circle Drawing Algorithm
 
-The **Digital Differential Analyzer (DDA)** algorithm is one of the simplest line-drawing algorithms. Given the starting and ending coordinates of a line, DDA can efficiently compute the intermediate points to draw the line.
-
+The **Midpoint Circle Drawing Algorithm** is a basic and important method in computer graphics used to draw circles. It uses only integer calculations and takes advantage of the circle’s symmetry to draw points faster and more efficiently. By calculating points for just one octant (or part of the circle), it mirrors them across the other seven octants to complete the full circle.
 ## Algorithm Overview
 
 ### Given:
-- Center coordinates: (Xc, Yc)
+- Center coordinates: `(Xc, Yc)`
 
-- Radius: R
+- Radius: `R`
 
 ---
 
@@ -16,14 +15,14 @@ The **Digital Differential Analyzer (DDA)** algorithm is one of the simplest lin
 
 Set the starting point at the top of the circle:
 
-- X = 0
+- `X = 0`
 
-- Y = R
+- `Y = R`
 
 ---
 
 ### Step 2: Clculate the initial value parameter.
-- P = 1 - R
+- `P = 1 - R`
 
 ---
 
@@ -68,10 +67,21 @@ For each `(X, Y)` calculated, plot the 8 symmetric points using the center `(Xc,
 - `(Xc - Y, Yc - X)`
 
 ---
+### Step 5: Repeat Until X ≥ Y
 
-## DDA Visualization:
+Continue the loop and plot points until the condition X ≥ Y is satisfied.
 
-Here is a visual representation of how the DDA algorithm works:
+---
+### Step 6:
+
+Step-05 generates all the points for one octant.To find the points for other seven octants, follow the eight symmetry property of circle.
+
+
+---
+##  Mid Point Circle Visualization:
+---
+
+Here is a visual representation of how the  Mid Point Circle Drawing Algorithm works:
 
 <img src="output.png" width="600" height="300" alt="DDA">
 
@@ -79,7 +89,7 @@ Here is a visual representation of how the DDA algorithm works:
 
 ## Documentation:
 
-For a more detailed explanation of the DDA algorithm, check out the full documentation:
+For a more detailed explanation of the Mid Point Circle Drawing Algorithm, check out the full documentation:
 
 [Click here for Documentation]()
 
