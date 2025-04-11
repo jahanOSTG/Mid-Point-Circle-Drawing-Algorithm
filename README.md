@@ -69,7 +69,7 @@ For each `(X, Y)` calculated, plot the 8 symmetric points using the center `(Xc,
 ---
 ### Step 5: Repeat Until X ≥ Y
 
-Continue the loop and plot points until the condition X ≥ Y is satisfied.
+Continue the loop and plot points until the condition `X ≥ Y` is satisfied.
 
 ---
 ### Step 6:
